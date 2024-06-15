@@ -20,7 +20,7 @@ window.addEventListener('load', () => {
             console.log(res.current.condition.wind_kph) //Velocidade do vento 
             
             const icone = document.createElement('img')
-            const condicao = document.createElement('span')
+            const condicao = document.createElement('p')
             const cidade = document.createElement('span')
             const temperatura = document.createElement('span')
             const sensTerm = document.createElement('span')
